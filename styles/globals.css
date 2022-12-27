@@ -1,3 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
 html,
 body {
   padding: 0;
@@ -14,7 +18,10 @@ a {
 * {
   box-sizing: border-box;
 }
-
+.no-wrap{
+  white-space: nowrap;
+}
+/* 
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
@@ -23,4 +30,9 @@ a {
     color: white;
     background: black;
   }
+} */
+
+.img-fluid{
+  max-width: 100%;
+  max-height: 100%;
 }
